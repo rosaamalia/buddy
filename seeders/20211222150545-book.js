@@ -584,7 +584,7 @@ module.exports = {
         kategori_id : 4,
         judul : "Pando Mencari Teman Berpetualang" ,
         deskripsi : "Pando adalah seekor anak beruang jantan...",
-        penulis : "Anonim" ,
+        penulis : "Sarah Nafisah" ,
         isi : `
         Pando adalah seekor anak beruang jantan. Ia tampan, gendut, dan pandai. Seperti induk-induk beruang lainnya, ibu Pando juga sering menasihatinya,
 
@@ -665,6 +665,404 @@ module.exports = {
         createdAt : new Date(),
         updatedAt : new Date()
       },
+      {
+        kategori_id : 4,
+        judul : "Raja yang Khawatir Tentang Kotanya" ,
+        deskripsi : "Dahulu kala, kota Fes dipimpin oleh Raja Mulay. Ia sangat cinta dan bangga dengan kotanya. Namun ia khawatir......",
+        penulis : "Sarah Nafisah" ,
+        isi : `
+        Dahulu kala, kota Fes dipimpin oleh Raja Mulay. Ia sangat cinta dan bangga dengan kotanya. Tetapi suatu malam Raja Mulay merasa khawatir tentang kotanya.
+        
+        "Istriku, Fes adalah kota yang indah. Pemandangan alamnya sangat cantik. Menara-menara masjid itu semakin menambah kecantikan kota ini. Kota Fes memang berada di tanah yang tandus. Namun sumber mata air selalu memancar untuk memenuhi kebutuhan hidup penduduknya. Walaupun begitu...aku tetap merasa khawatir," ujarnya pada istrinya.
+
+        "Apa yang membuat engkau khawatir, suamiku?" tanya istrinya keheranan.
+
+        "Fes memang kota yang indah," ucap Raja Mulay, "tetapi letaknya sangat jauh dengan kota-kota lain. Aku khawatir suatu saat nanti kota Fes akan dilupakan orang. Dan kota ini akan mati."
+
+        Begitulah, kekhawatiran ini membuat Raja Mulay selalu termenung dan murung. Hingga pada suatu hari, istri Raja Mulay berkata,
+
+        "Suamiku, mengapa engkau tidak membagi rasa khawatirmu ini pada rakyatmu? Caranya, dengan membuat sayembara!"
+
+        "Sayembara? Apa maksudmu, istriku?"
+
+        Kota Fes dipimpin oleh Raja Mulay. Ia sangat cinta dan bangga dengan kotanya. Tetapi suatu malam Raja Mulay merasa khawatir tentang kotanya.
+
+        "Istriku, Fes adalah kota yang indah. Pemandangan alamnya sangat cantik. Menara-menara masjid itu semakin menambah kecantikan kota ini. Kota Fes memang berada di tanah yang tandus. Namun sumber mata air selalu memancar untuk memenuhi kebutuhan hidup penduduknya. Walaupun begitu... aku tetap merasa khawatir," ujarnya pada istrinya.
+
+        "Apa yang membuat engkau khawatir, suamiku?" tanya istrinya keheranan.
+
+        "Fes memang kota yang indah," ucap Raja Mulay, "tetapi letaknya sangat jauh dengan kota-kota lain. Aku khawatir suatu saat nanti kota Fes akan dilupakan orang. Dan kota ini akan mati."
+
+        Begitulah, kekhawatiran ini membuat Raja Mulay selalu termenung dan murung. Hingga pada suatu hari, istri Raja Mulay berkata,
+
+        "Suamiku, mengapa engkau tidak membagi rasa khawatirmu ini pada rakyatmu? Caranya, dengan membuat sayembara!"
+
+        "Sayembara? Apa maksudmu, istriku?"
+
+        "Umumkanlah kepada rakyat. Siapa saja yang punya cara untuk membuat kota Fes terkenal ke seluruh dunia dan diingat orang seiamanya, akan mendapatkan hadiah 4 kantong emas."
+
+        "Oh...itu ide yang bagus," seru Raja Mulay ceria. Raja Mulay segera mengumumkan sayembara itu di alun-alun kota. Setiap orang di kota Fes berpikir keras untuk memenangkan sayembara. Raja Mulay menerima banyak jawaban dari rakyatnya. Namun tak satu pun cara yang diajukan oleh rakyatnya berkenan di hati Raja Mulay. Raja Mulay pun kecewa dan kembali murung.
+
+        Tiba-tiba pada suatu hari, seorang pelayan Raja Mulay datang menghadap.
+
+        "Paduka Raja, ada seorang anak laki-laki bernama Abu ingin bertemu Paduka."
+
+        "Bawa dia kemari," jawab Raja Mulay. "Barangkali dia bisa memenangkan sayembaraku."
+
+        Tak lama kemudian, datanglah Abu menghadap Raja. Alangkah terkejutnya Raja Mulay melihat penampilan Abu yang kurus, kotor dan berpakaian compang camping. Tangan kanannya disembunyikan di balik tubuhnya.
+
+        "Apa kau punya ide untuk membuat kota Fes terkenal, hai Abu?" tanya Raja Mulay.
+
+        "Benar Paduka. Hamba membawa ini," jawab Abu sambil menunjukkan barang yang dibawa dengan tangan kanannya.
+
+        Abu mengeluarkan topi berbentuk bundar seperti peci. Terbuat dari bulu, berwarna merah dan mempunyai rumbai-rumbai di atasnya.
+
+        "Apa istimewanya topi itu? Apakah kau bercanda, hai anak kecil?"
+
+        "Sama sekali tidak, Paduka. Topi ini akan membuat kota Fes terkenal dan akan diingat orang selamanya."
+
+        "Bagaimana bisa?" tanya Raja Mulay keheranan.
+
+        "Jika Paduka memakai topi ini sebagai pengganti sorban, semua laki-laki di kota Fes akan ikut memakainya pula. Mereka akan memakai apa pun yang dipakai rajanya."
+
+        "Benar. Tetapi bagaimana bisa membuat kota Fes terkenal?"
+
+        "Pengunjung kota Fes akan melihat topi ini dipakai oleh setiap laki-laki kota Fes. Mereka tentu akan membeli dan turut memakai."
+
+        Raja Mulay berpikir sejenak dan berkata, "Benar, tetapi bagaimana bisa membuat kota Fes terkenal? Kau semakin membuatku bingung."
+
+        "Maafkan hamba, Paduka," Abu melanjutkan, "Lama-kelamaan, orang-orang di kota lain juga akan tertarik memakainya. Sebab topi ini sangat nyaman dipakai. Silakan Paduka mencobanya. Topi ini akan melindungi Paduka dari terik sinar matahari. Lebih ringan dari sorban dan rumbai-rumbai di atasnya untuk membersihkan debu yang menempel pada topi."
+
+        Raja Mulay pun tertarik ingin mencoba. Sambil bercermin Raja Mulay bergaya, "Oh...bagus sekali. Tetapi, jika seluruh laki-laki di Maroko memakai topi seperti ini, bagaimana kota Fes bisa terkenal?" masih saja Raja Mulay bertanya.
+
+        "Paduka, setiap orang yang menyebut nama topi ini, berarti dia menyebut kota Fes. Karena hamba menamai topi ini Fes."
+
+        Raja tercengang sesaat dan berkata, "Abu, aku percaya bahwa kau akan memenangkan sayembaraku. Tetapi jawablah satu pertanyaanku dulu. Bagaimana jika penduduk kota lain membuat topi seperti ini. Lalu mereka memberi nama dengan nama lain?"
+
+        Abu menjawab," Warna merah yang hamba pakai untuk mewarnai topi ini berasal dari getah pohon yang hanya tumbuh di kota Fes. Jadi hanya penduduk kota Fes-lah yang bisa membuat topi Fes yang asli."
+
+        Raja Mulay berseru," Kau memang anak yang cerdik, Abu! Aku akan memakai topi ini agar semua laki-laki di kota Fes tahu.
+
+        Kemudian mereka akan ikut memakai sekaligus membuat dan menjualnya. Dan kota Fes akan selalu diingat orang. Kau memenangkan sayembaraku, Abu."
+
+        Dengan gembira Raja Mulay menyerahkan 4 kantong emas kepada Abu, si anak kecil yang miskin.
+
+        Tahun demi tahun pun berlalu. Nama kota Fes menjadi terkenal. Sekarang ini, pengunjung negeri Maroko akan menjumpai banyak laki-laki yang memakai topi Fes. "Fes" telah menjadi topi khas sekaligus kebanggaan rakyat Maroko.
+        `,
+      sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+      createdAt : new Date(),
+      updatedAt : new Date()  
+      },
+      {
+        kategori_id : 4,
+        judul : "Serunai Batang Padi" ,
+        deskripsi : "Negeri Tanah Hijau yang diperintah Raja Tan Sati adalah negeri yang subuh. Dimana-mana terdapat hamparan kebun dan sawah. Namun, ada hal mengenaskan di balik negeri subur ini.....",
+        penulis : "Sarah Nafisah" ,
+        isi : `
+        Negeri Tanah Hijau yang diperintah Raja Tan Sati adalah negeri yang subur. Di mana-mana terdapat hamparan kebun dan sawah. Negeri-negeri tetangga bahkan mendapat beras dari Negeri Tanah Hijau ini. Namun sayang, di negeri yang subur ini justru banyak terdapat pengemis dan gelandangan. Penduduk yang kaya lebih senang berhura-hura dan mengadakan pesta. Tidak ada yang mempedulikan orang miskin di sekitar mereka. Keadaan demikian berlangsung terus bertahun-tahun.
+
+        Malin adalah salah satu penduduk miskin di Negeri Tanah Hijau. Kerjanya menjual kayu bakar. Pada suatu hari, Malin datang ke rumah Pak Lodan yang kaya raya.
+        
+        "Pak Lodan, apa Bapak mau membeli kayu-kayu bakarku ini?" ujar Malin.
+        
+        "Hmm, bagaimana kalau kutukar dengan dua genggam beras? Kalau kau tak mau, bawa saja lagi kayu bakar itu. Aku bisa menyuruh pembantuku mencarinya sendiri ke hutan!" ketus Pak Lodan angkuh.
+        
+        "Baiklah. Tak apa ditukar dengan dua genggam beras," kata Malin mengalah.
+        
+        Pak Lodan lalu menyuruh pembantunya memberikan dua genggam beras yang buruk.
+        
+        Malin adalah tukang kayu yang rajin. Walau kakinya pincang sebelah, dia mencari kayu bakar di hutan. Kadang ia menyabit rumput untuk makanan ternak, atau menjaga padi di sawah dari gangguan burung-burung. Ia kemudian menerima upah berupa beras.
+        
+        Namun upah yang diterimanya biasanya sangat sedikit. Ada-ada saja alasan orang-orang kaya itu.
+        
+        "Aku bisa saja melepas temakku di padang yang berumput subur! Tak perlu ada yang menjaga," kata pemilik ternak sambil memberi segenggam beras.
+        
+        "Burung-burung itu tak akan bisa menghabiskan semua padi di sawahku! Tak ada yang menjaga juga tak apa-apa!" alasan pemilik sawah sambil memberi segenggam beras. Malin menerimanya dengan ikhlas.
+        
+        Siang itu Malin pulang ke gubuknya di tepi hutan besar. Hari itu Malin mendapatkan beberapa genggam beras. Perutnya sudah lapar. Tiba-tiba Malin melihat seorang tua tergeletak di pinggir jalan setapak. Malin mendekat untuk menolongnya.
+        
+        "Siapakah engkau, Pak Tua?." Tanya Malin.
+        
+        "Aku pengembara miskin. Aku kehabisan bekal. Berhari-hari aku tidak makan. Aku sudah mencoba memintanya pada orang-orang kaya itu. Tidak ada yang sudi memberikan makanan sisa sedikit pun," jawab pengembara tua itu lemah.
+        
+        "Sudahlah Pak Tua. Aku punya sedikit beras. Mari ke gubukku," ucap Malin tulus. Kemudian tubuh Malin yang kurus itu memapah pengembara tua ke gubuknya. Langkah mereka pelan dan tertatih-tatih.
+        
+        Sesampai di gubuknya, Malin memasak beras yang didapatnya hari itu.
+        
+        "Jangan dimasak semuanya. Sisakan segenggam untuk persediaan nanti," nasihat pengembara tua. Malin mematuhinya walau sedikit heran. Setelah itu mereka makan dengan nikmat meskipun seadanya.
+        
+        "Pak Tua, hanya ini yang dapat aku suguhkan. Aku tidak dapat memberimu lebih banyak. Aku tidak kuat bekerja keras. Tubuhku lemah dan kakiku pincang," kata Malin.
+        
+        "Aku bersyukur masih ada yang mau menolongku. Tapi aneh! Negeri ini sangat subur dan makmur. Namun tak ada yang peduli pada orang-orang miskin. Anak muda, sudah saatnya aku melanjutkan perjalanan. Tenagaku sudah pulih kembali. Terimalah serunai ini sebagai tanda terima kasihku."
+        
+        Pengembara tua itu memberikan sebuah seruling kecil yang terbuat dari batang padi kepada Malin. Orang-orang di Negeri Tanah Hijau menyebutnya serunai.
+        
+        "Gunakanlah untuk 'mengusir dan memanggil," nasihat pengembara tua itu. Tiba-tiba pengembara tua itu lenyap sebelum Malin sempat mengucapkan terima kasih.
+        
+        Beberapa saat kemudian, Negeri Tanah Hijau dilanda bencana kekeringan. Berbulan-bulan hujan tidak turun. Sungai dan danau kering kerontang. Tanaman padi di sawah diserang hama belalang dan mati kekeringan. Persediaan padi di lumbung-lumbung penduduk kaya dimakan hama tikus. Persediaan beras kerajaan pun sudah habis. Hewan ternak banyak yang mati terserang wabah penyakit aneh. Dalam sekejap wabah kelaparan melanda Negeri Tanah Hijau. Penduduk kaya menjadi miskin dan kelaparan. Mereka menangisi harta benda, sawah ladang, dan hewan ternak mereka.
+        
+        "Malapetaka ini disebabkan perbuatan kita sendiri. Kita terlalu kikir dan tidak mempedulikan orang-orang miskin di sekitar kita," ujar Penasihat Kerajaan. "Tapi aku melihat dalam mimpiku. Ada seorang berkaki lumpuh yang akan menyelamatkan negeri ini." Tidak sulit untuk menemukan pemuda berkaki lumpuh di Negeri Tanah Hijau. Malin dipangggil ke istana. Selama wabah kelaparan melanda, Malin tidak pernah kehabisan bahan makanan. Karena secara ajaib beras yang disisakannya waktu itu tidak pernah habis dimasak.
+        
+        Malin teringat nasihat dan serunai yang diberikan pengembara tua itu. Malin meniup serunai itu.
+        
+        Terdengar suara merdu mengalun ke seluruh pelosok negeri. Tiba-tiba muncul ribuan ekor burung pemangsa belalang. Tikus-tikus di lumbung berlarian masuk hutan. Tak lama kemudian hujan pun turun dengan lebatnya. Penduduk bersorak bahagia. Negeri Tanah Hijau telah bebas dari bencana.
+        
+        Penduduk kaya kini berjanji tidak akan kikir lagi. Malin diangkat menjadi Penasihat Pertanian Kerajaan. Negeri Tanah Hijau kembali subur. Penduduknya hidup makmur dan saling menyayangi.
+        `,
+        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        createdAt : new Date(),
+        updatedAt : new Date()
+      },
+      {
+        kategori_id : 4,
+        judul : "Kekeran" ,
+        deskripsi : "Ayah Najib bernama Pak Budi. Beliau seorang Perwira Polisi yang pernah mendapat penghargaan atas keberaniannya selama bertugas....",
+        penulis : "Sarah Nafisah" ,
+        isi : `
+        Ayah Najib bernama Pak Budi. Beliau seorang Perwira Polisi yang pernah mendapat penghargaan atas keberaniannya selama bertugas. Terakhir Pak Budi dikirim ke Ambon yang sedang dilanda kerusuhan.
+
+        "Sebagai tentara, Ayah harus siap ditugaskan kapanpun dan di mana pun," begitu kata Pak Budi pada Najib saat akan bertugas ke Ambon. Namun, walau mereka tidak bertemu selama 6 bulan, seminggu sekali ayah Najib menelepon Najib dan ibunya.
+
+        Kemarin sore Pak Budi menelepon. Ia memberitahu bahwa masa bertugasnya Sudah selesai. Pasukannya akan digantikan oleh pasukan dari Jakarta. Najib dan ibunya diminta menunggu di Stasiun Gambir jam 07.00 pagi.
+
+        Dari Ambon, ayah Najib naik kapal laut TNI AL ke Surabaya. Kemudian dilanjutkan dengan kereta api ke Jakarta.
+
+        "Mana Ayah, Bu? Jangan-jangan Ayah tidak jadi pulang," keluh Najib setelah hampir satu jam mereka menunggu di stasiun Gambir.
+
+        "Mungkin keretanya terlambat karena ada perubahan jadwal," ibu Najib menenangkan putra tunggalnya yang duduk di kelas III SD.
+
+        Tak lama kemudian kereta yang ditunggu pun tiba. Najib dan ibunya berdiri di pinggir peron sambil melihat ke setiap gerbong. "Itu Ayah, Bu!" seru Najib sambil menunjuk ke pria tinggi besar yang berseragam anggota Brimob. Mereka segera menghampiri pria yang menggendong ransel besar itu.
+
+        "Kok, lama sekali, Yah," tanya Ibu.
+
+        "lya Tadi di Stasiun Cirebon keretanya berhenti cukup lama. Ada rel rusak yang harus diperbaiki dulu," jawab Ayah sambil menggendong Najib dan menciumnya.
+
+        "Kenapa relnya bisa rusak, Yah?" tanya Najib heran.
+
+        "Mungkin karena sudah terlalu tua. Atau ada orang iseng yang mengambili batu-batu di bantalan rel. Sehingga lama-kelamaan rel menjadi anjiok dan berbahaya untuk dilewati kereta," jawab Ayah. "Bagaimana sekolahmu, Jib? Dapat rangking apa, tidak?" tanya Ayah sambil menurunkan Najib dari gendongannya.
+
+        "Rangking tiga, Ayah," jawab Najib angga.
+
+        "Hebat. Kamu mau hadiah apa, Jib?" tanya Ayah.
+
+        "Najib mau nonton pertandingan final sepakbola, Yah," jawab Najib, sambil mereka melangkah keluar dari stasiun.
+
+        Setibanya di rumah, ayah Najib merapikan peralatannya.
+
+        "Apa itu Yah?" tanya Najib.
+
+        "Ini namanya kekeran. Gunanya untuk melihat benda atau musuh dari kejauhan," Pak Budi menerangkan. Najib mengambil dan mencobanya.
+
+        "Wah, muka Ayah besar sekali"
+
+        "Ini memang alat untuk melihat dari jarak jauh"
+
+        "Kalau begitu, boleh dibawa uhtuk nonton pertandingan sepak bola nanti, Yah?" tanya Najib sambil terus-mengeker benda-benda di dalam rumah.
+
+        "Boleh. Supaya kamu bisa lebih jelas melihat pemain bola favoritmu," jawab Ayah percanda.
+
+        "Benar, sudah lama Najib ingin melihat wajah asli Ronaldo."
+
+        "Husss! Itu pemain bola luar negeri," kata Ayah sambil tertawa. Najib tersenyum senang, pancingannya berhasil.
+
+        Akhirnya hari Minggu yang ditunggu-tunggu Najib tiba. Ya, hari itu ia dan ayahnya akan menonton pertandingan sepakbola. Pagi-pagi sekali Najib sudah bangun dan mandi. Ia takut terlambat sampai di Stadion Utama Senayan, tempat pertandingan itu berlangsung nanti.
+
+        Najib dan ayahnya akhirnya tiba di stadion. Di dalam, sudah banyak orang duduk dan bergerombol sesuai dengan tim favoritnya masing-masing. Pertandingan pun mulai.
+
+        "Mana kekerannya, Yah?" Tanya Najib penasaran. Tim andalannya sedang membawa bola dan mengiringnya ke depan gawang lawan. Najib meraih kekeran yang disodorkan ayahnya. Lalu mulai mengeker.
+
+        "Ya, payah! Masa bola sudah di depan gawang, masih tidak masuk!"
+
+        "Kalau cuma nonton, memang kelihatan gampang. Tapi coba kalau kamu yang main, belum tentu bisa dapat bola," sahut Ayah menasihati. Najib hanya tersenyum mendengar sindiran ayahnya. Ia terus memainkan kekerannya ke segala penjuru. Termasuk ke arah penonton di bawahnya.
+
+        “Wah! Itu kan si Agus," kata Najib kaget. Ternyata di kelas VIP, ada Agus, teman sekelasnya. Namun jarak Agus cukup jauh. Tak mungkin ia mendengar panggilan walau Najib berteriak. Dan, ah, tiba-tiba Najib mendapat akal. Ia mengarahkan kekeran ke wajah temannya itu. Wajah Agus kini tampak dekat sekali.
+
+        Lalu, "Hei, Agus! Sombong sekali! Kupanggil, tidak menyahut!" Najib setengah berbisik. Pak Budi tertawa  terbahak-bahak melihat tingkah anaknya.
+
+        "Aduh, Jib! Mana mungkin temanmu bisa dengar. Kamu teriak kencang saja, dia tidak dengar. Apalagi berbisik."
+
+        "Tapi kata Ayah, kalau memakai kekeran, kita bisa melihat yang jauh menjadi dekat. Najib kan berbisik pas di telinga Agus!" jawab Najib.
+
+        "Memang. Yang jauh bisa kelihatan jadi dekat, yang kecil bisa jadi besar. Itu karena di dalam teropong ini, ada semacam kaca pembesar. Kaca itu membuat jarak pandang kita jadi lebih jauh. Tapi, kekeran atau teropong ini gunanya hanya untuk melihat. Tidak bisa untuk berbicara dengan orang yang jauh jaraknya," sambung Pak Budi menjelaskan.
+
+        "Oh....begitu. Pantas Agus tidak menengok-nengok waktu dipanggil," sambung Najib sambil tersenyum malu. Apalagi orang di sebelahnya ikut tertawa.
+
+        "Dik, boleh pinjam kekerannya, tidak?" tanya pemuda itu. "Buat apa, Mas?" Najib balik bertanya.
+
+        "Buat kasih tahu ke kiper tim biru. Supaya jangan duduk terus. Nanti kalau ada tendangan bola jarak jauh, bagaimana?" ledek pria itu. Pak Budi dan yang lainnya ikut tertawa. Semakin merahlah wajah Najib menahan malu.
+        `,
+        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        createdAt : new Date(),
+        updatedAt : new Date()
+      },
+      {
+        kategori_id : 4,
+        judul : "Seorang Nenek dengan Sarang Semut di Kakinya" ,
+        deskripsi : `"Jangan Didi! Kembalikan! Itu kalung pemberian ibuku", suaraku serak karena menahan tangis. Didi, Hari, dan Ano tertawa terbahak-bahak. Senang sekali melihatku kebingungan.`,
+        penulis : "Yuniar Khairani" ,
+        isi : `
+        “Jangan Didi! Kembalikan! Itu kalung pemberian ibuku", suaraku serak karena menahan tangis. Didi, Hari, dan Ano tertawa terbahak-bahak. Senang sekali melihatku kebingungan.
+
+        "Nanti pasti kami kembalikan, Mita. Yah, barangkali kami ingin bermain lempar-lemparan kalung dulu di sungai," kata Ano tenang. Mereka kembali tertawa terpingkal. Oh, aku panik sekali. Ibu pasti marah kalau kalung mahal hadiah darinya hanyut di sungai.
+
+        "Beraninya hanya dengan anak perempuan. Awas kalau..?'
+
+        "Hoaak...ak...ak...huk!"
+
+        Suara batuk itu membuat kata-kataku terhenti. Jantungku terasa berhenti berdetak karena kaget. Keringat dingin mulai membasahi telapak tanganku. Karena sibuk melarikan kalungku, mereka tak sadar telah memilih jalan ke arah gubuk Nenek Rat. Melihat pucatnya wajah Didi, Hari, dan Ano kurasa mereka tak kalah cemasnya dengan aku.
+
+        "Kalian dengar?" bisik Hari dengan suara hampir tercekik, "Si Pemakan Anak itu barangkali mendengar suara kita..." Kami memandang dengan takut gubuk bambu yang terlindung dibalik semak. Sejenak aku merasa senang karena aku tidak merasa melakukan hal yang salah. Tapi kata-kata Didi membuat kelegaanku tak bertahan lama.
+
+        "Dia jahat sekali! Nenek tua itu akan menginjak kita dengan kakinya yang besar. Lalu kita dijadikan gulai. Kau tahu, kakinya itu adalah sarang semut."
+
+        "Jangan main-main kau, Didi!" tukas Ano sengit. Aku menelan ludah dengan susah payah. Perutku geli dan mual membayangkan sarang semut di kaki nenek Rat.
+
+        "Ayo pulang," ajakku lirih, "barangkali benar, kalau kita terlalu lama di sini, Nenek Rat akan membuat gulai sayur Didi", kataku mencoba melucu.
+
+        "Mita benar, kita memang harus . pulang" ujar Ano. Aku menarik napas lega diam-diam.
+
+        "Benar, Ano! Sekarang kembalikan kalungku. Lalu kita akan pulang ke rumah masing-masing", kataku sambil mengulurkan tangan.
+
+        Didi dan Hari terkekeh geli, "Hanya kami yang pulang. Kau tetap disini!" Aku terperanjat, "Apa maksudmu?" tukasku sengit.
+
+        "Maksudku, kalau kau ingin kalungmu kembali, buktikan dulu kau berani masuk ke gubuk Si Pemakan Anak itu!" seringai Didi sambil menggoyangkan kalung berbandul huruf M itu.
+
+        Aku menggeretakkan gigi kesal. Tadinya aku ingin menangis keras-keras. Tapi kurasa itu akan semakin membuat mereka merasa menang. Karena itu aku menarik napas dengan tenang dan berkata, "Baiklah." Kemudian kulangkahkan kakiku perlahan ke arah gubuk Nenek Rat. Sambil terus berdoa dan memejamkan mata. Semakin dekat dengan pintu gubuk, perutku semakin mual membayangkan sarang semut di kaki Nenek Rat.
+
+        Duk! Duk! Duk! Kuketuk pintunya dengan hati berdebar.
+
+        "SIAPA KAU?" bentak Nenek Rat begitu pintu terbuka dengan suara keras. Di tangannya tergenggam sebuah pisau daging yang sangat besar. Kudengar Didi, Hari, dan Ano berteriak ketakutan dan lari terbirit-birit meninggalkan kami.
+
+        "Ehm, ss... saya.... Mita," jawabku tergagap. Nenek Rat memicingkan sebelah matanya sambil mencibir. Aku memandangnya takut-takut, "Saya dengar Nenek tadi batuk-batuk. Saya pikir, Nenek tentu perlu bantuan. Saya selalu membawa obat-obatan di tas." Kuraba dasar tas sekolahku. Aku sedikit lega karena kantung obat yang selalu kubawa tidak tertinggal di meja belajarku.
+
+        "Betul begitu?" tanya Nenek Rat ragu. Aku mengangguk memastikan. "Masuklah, Nak!" ujarnya pelan. Aku menahan senyum. Sungguh baru kali ini aku merasa bersyukur karena memiliki Ayah seorang dokter. Ayah setiap hari memaksaku membawa obat-obatan untuk pertolongan pertama.
+
+        'Tadinya kukira kau seperti anak-anak lain yang sering mengganggu dan melempari rumahku. Ternyata tidak," katanya lirih. Aku tersenyum iba mendengarnya. Mataku menyapu ruangan dingin dan lembab. Perabotnya hanya sebuah meja reot dan dipan bambu usang.
+
+        "Nenek sendihan?" tanyaku bodoh, karena sesungguhnya aku tahu kalau dia hidup sendiri di gubuk reot ini. Tapi Nenek Rat mengangguk juga mengiyakan. Kulirik kakinya yang besar. Tapi tidak berlubang dan menjadi sarang semut seperti yang kubayangkan.
+
+        "Kata teman-teman, kaki Nenek Rat menjadi sarang semut," kataku takut-takut. Nenek Rat tertawa. Aku menatapnya bingung.
+
+        "Nenek tak pernah punya sarang semut di kaki. Lihat ini!" ujarnya sambil mengangkat sebelah kakinya ke arahku. 'Tapi Nenek sendiri heran, kenapa semut suka sekali dekat-dekat di tubuh Nenek.
+        Pakaian-pakaian kotor selalu dirubung semut," katanya sambil menggelengkan kepala bingung.
+
+        "Barangkali Nenek sakit gula", jawabku. Tiba-tiba aku mendapat akal. "Nek, bagaimana kalau Nenek Rat ke rumah Mita hari ini. Agak jauh, memang. Di ujung desa. Tapi Ayah Mita seorang dokter. Ayah pasti tahu apa yang bisa dilakukan untuk Nenek!" Kuraih tangan besar, dekil, dan keriput itu sambil tersenyum. "Khusus Nenek Rat, gratis!" bisikku sambil mengedipkan mata.
+
+        "Sekarang juga?" seru Nenek Rat senang. Aku mengangguk. Bangga juga membayangkan ketakutan telah kukalahkan. Dan tentunya Didi, Hari, dan Ano akan mengembalikan kalungku sambil tertunduk malu.
+        `,
+        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        createdAt : new Date(),
+        updatedAt : new Date()
+      },
+      {
+        kategori_id : 4,
+        judul : "Peri Kecil yang Rajin" ,
+        deskripsi : `Di sebuah rumah mungil, tinggallah kakak beradik Tomi dan Meri serta ayah dan nenek mereka. Setiap hari Meri selalu berkata, "Aku ingin rumah kita kelihatan sebagus rumah orang lain." Dan Tomi selalu menjawab, "Aku juga ingin begitu."`,
+        penulis : "Sarah Nafisah" ,
+        isi : `
+        Di sebuah rumah mungil, tinggallah kakak beradik Tomi dan Meri serta ayah dan nenek mereka. Setiap hari Meri selalu berkata, "Aku ingin rumah kita kelihatan sebagus rumah orang lain." Dan Tomi selalu menjawab, "Aku juga ingin begitu."
+
+        Tetapi mereka tidak pernah bekerja membersihkan rumah itu. Mereka tidak pernah mengatur perabotan, menyirami tanaman... Mereka juga tidak pernah membantu ayah dan nenek mereka yang sudah tua.
+
+        Suatu hari Meri berkata kepada neneknya,
+
+        "Nek, mengapa rumah orang lain bisa tampak bagus dan rapi sepanjang waktu? Apa sebabnya?"
+
+        "Itu karena Brownie tinggal di rumah-rumah yang rapi itu," kata Nenek. "Brownie-Brownie melakukan apa saja agar rumah yang ditinggalinya kelihatan bagus."
+
+        "Brownie itu apa, Nek?" Tanya Tomi.
+
+        "Brownie adalah peri-peri kecil yang suka membantu apa saja. Senang sekali jika ada Brownie di dalam rumah," jawab Nenek.
+
+        "Aku ingin kita punya satu Brownie!" seru Meri.
+
+        "Seperti apa mereka, Nek?"
+
+        "Rupa mereka seperti gadis kecil," kata Nenek.
+
+        "Dimana kita harus mencari mereka, Nek?" Tanya Meri lagi.
+
+        "Tanya saja pada seorang kakek bijaksana yang tinggal dekat danau. Mungkin ia dapat memberitahukanmu," kata Nenek.
+
+        Meri kemudian pergi ke danau yang tidak terlalu jauh dari rumahnya. Ia akhirnya berjumpa dengan Kakek Bijaksana.
+
+        "Kek, kata nenekku, Brownie mail bekerja apa saja agar rumah kami bisa kelihatan bagus. Maukah Kakek membantuku untuk menemukan satu Brownie saja, Kek?"
+
+        "Boleh saja," kata Kakek Bijaksana. "Kamu harus pergi ke danau. Lalu putar tubuhmu tiga kali, dan katakan inl,
+
+        'Putar saya dan balikkan saya dan perlihatkan saya peri kecil. Saya melihat ke dalam air dan saya melihatnya....'
+
+        Nah, setelah syairmu selesai, lihatlah ke dalam air di danau. Kau akan melihat Brownie!"
+
+        Setelah mengucapkan terima kasih, Meri berlari ke pinggir danau dan memutar tubuhnya tiga kali. Sambil berbalik, ia mengucapkan syairtadi,
+
+        "Putar saya dan balikkan saya dan perlihatkan saya peri kecil. Saya melihat ke dalam air dan saya melihatnya…"
+
+        Tetapi ketika Meri melihat ke dalam air, ia hanya melihat bayangan dirinya sendiri.
+
+        "Mungkin aku salah membaca syair," piker Meri, lalu mengulang syair tadi. Tetapi seperti tadi, ia hanya melihat bayangan dirinya di dalam air.
+
+        “Aku rasa aku melakukan kesalahan lagi," kata Meri.
+
+        "Setiap kali kucoba yang bisa kulihat hanya diriku sendiri."
+
+        Meri akhirnya berlari kembali menjumpai Kakek Bijaksana.
+
+        "Kek, ketika aku mencari Brownie, yang kutemukan hanya diriku sendiri. Aku kan bukan Brownie, Kek," kata Meri.
+
+        "Oh ya?" tanya Kakek Bijaksana. "Seperti apa Brownie yang kamu lihat itu?"
+
+        "Ya...seperti gadis kecil, Kek," kata Meri.
+
+        "Dan apa yang dilakukan oleh Brownie?" tanya si Kakek.
+
+        ng Rajin
+        “Aku rasa aku melakukan kesalahan lagi," kata Meri.
+
+        "Setiap kali kucoba yang bisa kulihat hanya diriku sendiri."
+
+        Meri akhirnya berlari kembali menjumpai Kakek Bijaksana.
+
+        "Kek, ketika aku mencari Brownie, yang kutemukan hanya diriku sendiri. Aku kan bukan Brownie, Kek," kata Meri.
+
+        "Oh ya?" tanya Kakek Bijaksana. "Seperti apa Brownie yang kamu lihat itu?"
+
+        "Ya...seperti gadis kecil, Kek," kata Meri.
+
+        "Dan apa yang dilakukan oleh Brownie?" tanya si Kakek.
+
+        Baca Juga: Podcast Dongeng untuk Anak-Anak: Pangeran yang Sabar #MendongenguntukCerdas
+
+        "Mereka membantu apa saja dan merawat rumah agar kelihatan indah," kata Meri.
+
+        "Menurutmu, kau bisa melakukan semua pekerjaan Brownie itu?" tanya Kakek Bijaksana lagi.
+
+        "Aku tidak ingin begitu, Kek!" kata Meri. "Aku mencari Brownie untuk mengerjakan semuanya untukku!"
+
+        "Kau ingin seseorang melakukan pekerjaan untukmu. Sementara kau sendiri tidak pernah melakukannya?" tanya Kakek Bijaksana kembali. "Kau ingin menjadi seorang gadis yang tidak pernah mengatur perabotan? Gadis yang tidak pernah menyirami tanaman? Gadis yang tidak pernah sama sekali membantu Ayah dan Nenek yang sudah sangat tua?"
+
+        "Oh tidak, Kek!" seru Meri. "Aku tidak sungguh-sungguh ingin seperti itu! Baiklah, aku ingin mencoba menjadi Brownie, Kek!"
+
+        Meri lalu segera pulang sambil tak lupa berterimakasih pada Kakek Bijaksana.
+
+        Ketika tahu Meri ingin mencoba menjadi Brownie, Tomi juga ingin melakukannya hal yang sama.
+
+        "Kita bisa kembali menjadi Tomi dan Meri lagi, jika bosan menjadi Brownie," kata Tomi. Maksud Tomi, jika mereka malas bekerja, mereka bisa saja membiarkan rumah mereka berantakan lagi seperti dulu.
+
+        Tetapi ternyata menjadi Brownie adalah hal yang menyenangkan. Setiap pagi kedua anak itu bangun di saat ayah dan nenek mereka masih tidur. Mereka melakukan semua pekerjaan rumah.
+
+        Selama beberapa waktu, Ayah dan Nenek mengira Brownie-lah yang telah membersihkan rumah mereka. Tetapi suatu pagi mereka mendapati anak-anak itu tertawa ceria di saat bekerja.
+
+        "Apa ini?" seru Ayah.
+
+        Nenek hanya tertawa dan tertawa. Setelah melihat kedua cucunya, Nenek mengerti.
+
+        "Betapa menyenangkan jika ada Brownie di dalam rumah," kata Nenek.
+        `,
+        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        createdAt : new Date(),
+        updatedAt : new Date()
+      }
     ])
   },
 
