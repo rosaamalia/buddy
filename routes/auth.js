@@ -46,4 +46,7 @@ router.post('/login', [loginValidation], (req, res) => {
     }
 })
 
+// route logout
+router.post('/logout', AuthController.logout)
+
 module.exports = router;

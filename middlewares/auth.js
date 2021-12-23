@@ -1,4 +1,8 @@
 const { check } = require('express-validator')
+const jwt = require('jsonwebtoken')
+require('dotenv').config()
+
+const models = require('../models')
 const User = require('../controllers/UserController')
 
 // validasi input saat registrasi
@@ -21,7 +25,55 @@ const loginValidation = [
     check('password').not().isEmpty().withMessage('Password harus diisi').isAlphanumeric()
 ];
 
+const authenticateJWT = async (req, res, next) => {
+    try {
+        // mengambil request client dengan authorizationnya (token)
+        const authHeader = req.headers.authorization;
+    
+        if (authHeader) {
+            // mengambil token saja
+            const token = authHeader.split(' ')[1];
+    
+            // mengecek apakah token sudah pernah digunakan atau belum
+            const cekBlacklist = await models.Blacklist.findOne({ where: { token: token }})
+
+            console.log(cekBlacklist)
+            if(cekBlacklist)
+            {
+                return res.status(401).send({
+                    status: 401,
+                    message: "Token sudah tidak dapat digunakan. Silahkan melakukan login kembali"
+                })
+            }
+    
+            // verifikasi token
+            jwt.verify(token, process.env.TOKEN_SECRET, (err) => {
+                if (err) {
+                    return res.status(403).send({
+                        status: 403,
+                        message: "Token tidak valid"
+                    })
+                }
+    
+                next();
+            });
+        } else {
+            res.status(401).send({
+                status: 401,
+                message: "Masukkan token untuk mengakses"
+            });
+        }
+    } catch(err) {
+        console.log(err)
+        res.status(422).send({
+            status: 422,
+            message: err
+        })
+    }
+};
+
 module.exports = {
     registerValidation,
-    loginValidation
+    loginValidation,
+    authenticateJWT
 };

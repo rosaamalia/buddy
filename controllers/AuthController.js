@@ -23,10 +23,7 @@ const login = async (req, res) => {
         const email = req.body.email;
         const password = req.body.password;
 
-        const cekEmail = await models.User.findOne({
-            where: {email: email}
-        })
-        
+        const cekEmail = await models.User.findOne({ where: {email: email} })
         const user = cekEmail.dataValues
         const verify = passwordHash.verify(password, user.password)
         
@@ -62,7 +59,33 @@ const login = async (req, res) => {
     }
 }
 
+const logout = async (req, res) => {
+    try {
+        if(req.headers.authorization) {
+            const token = req.headers.authorization.split(' ')[1]
+            await models.Blacklist.create({ token: token })
+
+            res.status(200).send({
+                status: 200,
+                message: "Logout berhasil"
+            })
+        } else {
+            res.status(422).send({
+                status: 422,
+                message: "Masukkan token untuk logout"
+            })
+        }
+    } catch(err) {
+        console.log(err)
+        res.status(422).send({
+            status: 422,
+            message: err
+        })
+    }
+}
+
 module.exports = {
     register,
-    login
+    login,
+    logout
 }
