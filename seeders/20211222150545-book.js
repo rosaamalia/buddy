@@ -12,6 +12,7 @@ module.exports = {
      * }], {});
     */
      await queryInterface.bulkInsert('books', [
+       // Puisi
       {
         kategori_id : 1 ,
         judul : "Doa" ,
@@ -36,7 +37,7 @@ module.exports = {
         aku tidak bisa berpaling
 
         `,
-        sampul : "https://www.google.com/",
+        sampul : "http://3.bp.blogspot.com/-6DW2p7NiDaM/UpWnM9Eb_KI/AAAAAAAAAQY/0Uf5NtawQT4/s1600/pix+2.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -58,7 +59,7 @@ module.exports = {
         Api rindu pada-Mu menyala di puncak yang sepi.
         Semua manusia sama tidak tahu dan sama rindu.
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366856795l/17847550.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -90,7 +91,7 @@ module.exports = {
         mengawas daku dalam dunia.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "https://cdn.kibrispdr.org/data/puisi-karya-amir-hamzah-0.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -111,7 +112,7 @@ module.exports = {
 
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "https://cf.shopee.co.id/file/4c5c25d5a9becc213029bf98f0c27406",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -134,17 +135,16 @@ module.exports = {
         Dan membenarkan perbuatan-perbuatan orang lain
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334545287l/3221508.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
       {
         kategori_id : 1 ,
-        judul : "Nasehat-Nasehat Kecil Orang Tua" ,
+        judul : "Nasehat-Nasehat Kecil Orang Tua Pada Anaknya Berangkat Dewasa" ,
         deskripsi : "Pada Anaknya Berangkat Dewasa",
         penulis : "Taufik Ismail" ,
         isi : `
-        Pada Anaknya Berangkat Dewasa
         Jika adalah yang harus kaulakukan
         Ialah menyampaikan kebenaran
         Jika adalah yang tidak bisa dijual-belikan
@@ -159,7 +159,7 @@ module.exports = {
         Ialah syahid di jalan Ilahi.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "https://sastra.perpusnas.go.id/home/preview/rubrik/nasihat_ti.pdf",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -188,7 +188,7 @@ module.exports = {
 
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "http://3.bp.blogspot.com/-6DW2p7NiDaM/UpWnM9Eb_KI/AAAAAAAAAQY/0Uf5NtawQT4/s1600/pix+2.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -212,7 +212,7 @@ module.exports = {
 
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "-",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -240,7 +240,7 @@ module.exports = {
         Awas, akan kupeluk habis kau esok hari.”
         Pantai telah gelap. Ada yang tak bisa lelap.
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617601153l/1408021.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -268,7 +268,7 @@ module.exports = {
 
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+puisi&sxsrf=AOaemvLehxVszhIfdXTFP81fpJAvbFQlMQ:1640187871901&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixouD73_f0AhV2TWwGHW-dAgQQ_AUoAXoECAEQAw&biw=1517&bih=694&dpr=0.9#imgrc=M3lSQrMvs0dgUM",
+        sampul : "https://opac.perpusnas.go.id/uploaded_files/sampul_koleksi/original/Monograf/1241330.jpg?rnd=100241405",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -278,17 +278,19 @@ module.exports = {
         deskripsi : "Pisang emas dibawa berlayar ...",
         penulis : "Chairil Anwar" ,
         isi : "Pisang emas dibawa berlayar \n Masak sebiji di dalam peti \n Hutang emas dapat dibayar \n Hutang budi dibawa mati",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://2.bp.blogspot.com/-gmQAkEAIhPA/T5pvrzRB5LI/AAAAAAAAARg/KaLDv_W0wLw/s1600/220px-Buku_Chairil_Anwar_Deru_Tjampur_Debu_01.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
+
+      // Pantun
       {
         kategori_id :2 ,
         judul : "Pantun Nasihat" ,
         deskripsi : "Pulau nandan jauh di tengah ...",
         penulis : "Chairil Anwar" ,
         isi : "Pulau pandan jauh di tengah \n Di balik pulau angsa dua \n Hancur badan dikandung tanah \n Budi baik dikenang jua",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://2.bp.blogspot.com/-gmQAkEAIhPA/T5pvrzRB5LI/AAAAAAAAARg/KaLDv_W0wLw/s1600/220px-Buku_Chairil_Anwar_Deru_Tjampur_Debu_01.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -298,7 +300,7 @@ module.exports = {
         deskripsi : "Kalau keladi sudah ditanam ...",
         penulis : "Asriadi" ,
         isi : "Kalau keladi sudah ditanam \n Janganlah lagi meminta talas \n Kalau budi sudah ditanam \n Janganlah lagi meminta balas",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -308,7 +310,7 @@ module.exports = {
         deskripsi : "Burueng haling tabang tinggi ...",
         penulis : "Dr. Rais Yatim" ,
         isi : "Burueng haling tabang tinggi \n Tabang mengirok ka talago lamo \n Kok hilang kama ka dicari \n Kok lalok bilo ka tajago ",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -318,7 +320,7 @@ module.exports = {
         deskripsi : "Jika anak berjiwa seni ...",
         penulis : "Irwan Prayitno" ,
         isi : "Jika anak berjiwa seni \n Bakatnya datang tidak menjelma \n Pendidikan dimulai Sejak Dini \n Orangtua dan guru harus seirama",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -328,7 +330,7 @@ module.exports = {
         deskripsi : "Kami datang dengan teman ...",
         penulis : "Anonim" ,
         isi : "Kami datang dengan teman \n Bawanya batu akik \n Al Quran adalah pedoman \n Menjadi pribadi lebih baik",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -338,7 +340,7 @@ module.exports = {
         deskripsi : "Orang Cina berdagang kain...",
         penulis : "Hamzah Fansuri" ,
         isi : "Orang Cina berdagang kain \n kain dijual di tengah pekan \n Asal tidak cari yang lain \n nyawa dan badan saya serahkan.",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -348,7 +350,7 @@ module.exports = {
         deskripsi : "Wahai ananda cahaya mata ...",
         penulis : "Dr. Tenas Effendy" ,
         isi : "Wahai ananda cahaya mata \n Pantun melayu jangan dinista \n Isinya indah bagai permata \n Bila dipakai menjadi mahkota",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -358,7 +360,7 @@ module.exports = {
         deskripsi : "Wahai ananda kekasih ibu ...",
         penulis : "Dr. Tenas Effendy" ,
         isi : "Wahai ananda kekasih ibu \n Pakai olehmu pantun melayu \n Di dalamnya banyak mengandung ilmu \n Manfaatnya besar untuk bekalmu",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -368,10 +370,12 @@ module.exports = {
         deskripsi : "Wahai ananda dengarlah manat ...",
         penulis : "Dr. Tenas Effendy" ,
         isi : "Wahai ananda dengarlah manat \n Pantun memantun sudah teradat \n Di dalamnya banyak berisi nasehat \n Bila dipakai hidup selamat",
-        sampul : "https://www.google.com/search?q=gambar+sampul+pantun&tbm=isch&ved=2ahUKEwi0i-fo2ff0AhU9xnMBHWWHDpEQ2-cCegQIABAA&oq=gambar+sampul+pantun&gs_lcp=CgNpbWcQAzoHCCMQ7wMQJzoFCAAQgAQ6BggAEAoQGDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQAzoGCAAQCBAeOgQIABAYUIkfWJ5NYKlUaABwAHgBgAG_AogBmiCSAQgyLjIzLjEuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=bUHDYfSgIb2Mz7sP5Y66iAk&bih=694&biw=1517#imgrc=0qkA35nmR7ANIM",
+        sampul : "http://grahailmu.id/wp-content/uploads/2018/04/Pantun.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
+
+      // Cerpen
       {
         kategori_id : 3,
         judul : "Gara-Gara Nenek Lupa" ,
@@ -394,7 +398,7 @@ module.exports = {
 
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/2019/04/27/2383550649.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -411,7 +415,7 @@ module.exports = {
         Contoh cerita pendek anak sekolah dasar di atas merupakan fabel yang memiliki pesan moral bahwa menjadi orang tidak boleh sombong dan menyepelekan lawan hanya karena memiliki satu keunggulan dibandingkan yang lainnya. Selain itu pesan moral yang juga bisa diambil adalah dari sisi kura-kura dimana meski ia sadar ia tidak bisa mengalahkan kelinci dalam hal kecepatan namun ia tidak gentar dalam menghadapi tantangan dan tidak mudah menyerah meski sejak awal hasilnya lari si kelinci bisa membuat jarak antara mereka jadi sangat jauh. Akhirnya, kerja keras dan sikap pantang menyerah yang bisa menang dan bukannya kesombongan.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://assets-a1.kompasiana.com/items/album/2020/07/18/penulis-kelinci-dan-kura-kura-5f12fa51d541df044f0b6e53.jpg?t=o&v=1200",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -429,7 +433,7 @@ module.exports = {
  
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://3.bp.blogspot.com/-GBw_l_H9xJg/WpzK_tN8TcI/AAAAAAAAAMo/VCp5KJj_7TE31T-_gRrZ2k1HMyLue0vgwCLcBGAs/s1600/penggembala-dan-srigala-5a0eac5a2599ec7372017322.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -445,7 +449,7 @@ module.exports = {
         Pesan moral yang bisa diambil dari contoh cerpen anak sekolah dasar di atas adalah bahwa ketika seseorang melakukan kesalahan maka cepat-cepatlah dimaafkan agar tidak diingat terus dan merusak hubungan dengan teman, sedangkan kebaikannya diingat selalu agar sesama sahabat punya kenangan yang indah satu sama lain. Pesan lainnya yang bisa dipetik adalah meski sedang marahan namun jika teman sedang membutuhkan bantuan maka bantulah sebisa mungkin agar tali persahabatan tidak putus.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "http://asset-a.grid.id/crop/0x0:0x0/780x800/photo/bobofoto/original/5719_dua-orang-sahabat.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -461,7 +465,7 @@ module.exports = {
         Cerita cerpen anak sekolah dasar tersebut sangat cocok diceritakan kepada anak-anak sekolah agar tetap rajin belajar dan menggapai cita-cita meski banyak batasnya. Sifat Topan yang baik hati dan mau berbagi dengan sesama ketika bertemu dengan kakek tua yang terlihat lelah juga bisa jadi contoh yang baik agar anak bisa berbuat baik dengan siapa saja tidak memandang bulu dan tanpa mengharapkan kebaikan. Kebaikan yang dilakukan bisa dibalas dalam bentuk lain oleh orang lain.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "http://asset-a.grid.id/crop/0x0:0x0/x/photo/2019/03/05/3193356479.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -475,7 +479,7 @@ module.exports = {
         Abu Nawas kemudian naik ke menara yang tinggi dan mengepak-ngepakkan tangannya seperti mau terbang. Baginda Raja pun jenuh menunggu dan memanggil Abu Nawas turun ke bawah dan bertanya kenapa tidak kunjung terbang? Abu Nawas pun menjawab ia bilang hanya mau terbang, bukan bisa terbang. Mendengar hal ini pun Baginda tidak jadi menghukum Abu karena ia tidak 
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://1.bp.blogspot.com/-OD8zKEuQK88/XnDoVmyqjqI/AAAAAAAAADw/9C1oitDGuQobJvtBqz7uSiJY7DVieBxFQCLcBGAsYHQ/s400/Kisah%2BAbu%2BNAwas.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -500,7 +504,7 @@ module.exports = {
         “Ayo…!” kata Haura, Hasna dan Aniq.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://i.pinimg.com/736x/47/e9/a8/47e9a8dfec4a46fe233fe3b48873943e.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -517,7 +521,7 @@ module.exports = {
         Teman-teman cerpenmu.com jika kalian sama seperti Danea ingatlah bahwa: “Siapapun guru itu, biar baik atau tidak jika kita rajin belajar pasti hasilnya akan memuaskan!”
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://cdn.dribbble.com/users/2317423/screenshots/10622367/school_teacher_illustration_dr_4x.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -534,7 +538,7 @@ module.exports = {
         Dan sekarang hanya kami bertiga dan itu pun kami berbeda kelas. Setiap hari aku selalu mengingat semua sahabatku, karena sekarang kami tidak bersama lagi. Dan akhirnya aku pun sedih dan mengakibatkan masalah yang menimpa diriku. Aku pun selalu berdoa, “Ya tuhan, kenapa engkau tega memisahkan kami” Aku pun langsung sedih dan itulah kisah persahabatan yang runtuh.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://previews.123rf.com/images/file404/file4041302/file404130200136/17954793-friends-illustration.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -559,7 +563,7 @@ module.exports = {
         Namun aku sangat sedih sekali Karena Devi harus pindah rumah. Karena Kakaknya seorang polisi, dia dan keluarganya tinggal di asrama polisi. Sebenarnya Devi nggak mau ikut, tapi harus gimana lagi karena semua keluarganya di sana. Berat rasanya kami harus berpisah karena jarak. Pasti kami akan kangen masa-masa kita bersama. Walaupun kita pisah kita nggak pernah hilang komunikasi dan tetap menjadi sahabat sejati. Karena suatu saat nanti kita akan bisa bertemu dan bersama lagi.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/97c8f295079573.5e8ecaf81dedc.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -576,10 +580,12 @@ module.exports = {
         Dan sekarang hanya kami bertiga dan itu pun kami berbeda kelas. Setiap hari aku selalu mengingat semua sahabatku, karena sekarang kami tidak bersama lagi. Dan akhirnya aku pun sedih dan mengakibatkan masalah yang menimpa diriku. Aku pun selalu berdoa, “Ya tuhan, kenapa engkau tega memisahkan kami” Aku pun langsung sedih dan itulah kisah persahabatan yang runtuh.
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+cerpen&tbm=isch&ved=2ahUKEwiY4v2A4Pf0AhVKhNgFHYeCDWMQ2-cCegQIABAA&oq=sampul+cerpe&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQBRAeMgYIABAIEB46BwgjEO8DECc6CAgAEIAEELEDOgsIABCABBCxAxCDAVCsBljRHmCHKmgAcAB4AIAB3AGIAZ8NkgEFMS43LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6kfDYZjFNMqI4t4Ph4W2mAY&bih=694&biw=1517#imgrc=xBARDCXv9dEEIM",
+        sampul : "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/97c8f295079573.5e8ecaf81dedc.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
+
+      // Dongeng
       {
         kategori_id : 4,
         judul : "Pando Mencari Teman Berpetualang" ,
@@ -661,7 +667,7 @@ module.exports = {
 
 
         `,
-        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        sampul : "https://asset-a.grid.id//crop/0x0:0x0/360x240/photo/2019/08/16/475886597.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -749,7 +755,7 @@ module.exports = {
 
         Tahun demi tahun pun berlalu. Nama kota Fes menjadi terkenal. Sekarang ini, pengunjung negeri Maroko akan menjumpai banyak laki-laki yang memakai topi Fes. "Fes" telah menjadi topi khas sekaligus kebanggaan rakyat Maroko.
         `,
-      sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+      sampul : "https://asset-a.grid.id//crop/0x0:0x0/360x240/photo/2019/09/16/461333701.jpg",
       createdAt : new Date(),
       updatedAt : new Date()  
       },
@@ -809,7 +815,7 @@ module.exports = {
         
         Penduduk kaya kini berjanji tidak akan kikir lagi. Malin diangkat menjadi Penasihat Pertanian Kerajaan. Negeri Tanah Hijau kembali subur. Penduduknya hidup makmur dan saling menyayangi.
         `,
-        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        sampul : "https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/2019/11/02/417722887.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -891,7 +897,7 @@ module.exports = {
 
         "Buat kasih tahu ke kiper tim biru. Supaya jangan duduk terus. Nanti kalau ada tendangan bola jarak jauh, bagaimana?" ledek pria itu. Pak Budi dan yang lainnya ikut tertawa. Semakin merahlah wajah Najib menahan malu.
         `,
-        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        sampul : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-nA2cnZedmqu27ekPwqb-dNC60CRYQxcCtaoujzUO1l1UM22hZ2ON3sPEJF8_n8nMuAs&usqp=CAU",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -950,7 +956,7 @@ module.exports = {
 
         "Sekarang juga?" seru Nenek Rat senang. Aku mengangguk. Bangga juga membayangkan ketakutan telah kukalahkan. Dan tentunya Didi, Hari, dan Ano akan mengembalikan kalungku sambil tertunduk malu.
         `,
-        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        sampul : "http://asset-a.grid.id/crop/0x0:0x0/x/photo/2019/09/24/3626128115.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       },
@@ -1059,7 +1065,7 @@ module.exports = {
 
         "Betapa menyenangkan jika ada Brownie di dalam rumah," kata Nenek.
         `,
-        sampul : "https://www.google.com/search?q=sampul+dongeng&tbm=isch&ved=2ahUKEwjbgOKO6vf0AhU4_zgGHemeDMUQ2-cCegQIABAA&oq=sampul+dongeng&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeOgcIIxDvAxAnOggIABCABBCxAzoLCAAQgAQQsQMQgwE6BAgAEBhQAFiPL2D7MmgAcAB4AoABiQaIAYQXkgENMi41LjIuMS4wLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=hFLDYduuB7j-4-EP6b2yqAw&bih=694&biw=1517#imgrc=8dWB4CDH4gWz9M",
+        sampul : "https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/2019/10/29/2617165300.jpg",
         createdAt : new Date(),
         updatedAt : new Date()
       }
