@@ -10,4 +10,11 @@ const getAllUser = async (req, res, next) => {
     });
 };
 
-module.exports = { getAllUser };
+const getUserbyEmail = async (val) => await models.User.findOne({
+    where: {email: val}
+})
+
+module.exports = {
+    getAllUser,
+    getUserbyEmail
+};
