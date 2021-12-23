@@ -24,7 +24,7 @@ router.post('/register', registerValidation, (req, res) => {
         AuthController.register(data, res)
     } else {
         res.status(422).send({
-            status: 422,
+            code: 422,
             message: error
         })
     }

@@ -41,7 +41,7 @@ const authenticateJWT = async (req, res, next) => {
             if(cekBlacklist)
             {
                 return res.status(401).send({
-                    status: 401,
+                    code: 401,
                     message: "Token sudah tidak dapat digunakan. Silahkan melakukan login kembali"
                 })
             }
@@ -50,7 +50,7 @@ const authenticateJWT = async (req, res, next) => {
             jwt.verify(token, process.env.TOKEN_SECRET, (err) => {
                 if (err) {
                     return res.status(403).send({
-                        status: 403,
+                        code: 403,
                         message: "Token tidak valid"
                     })
                 }
@@ -59,14 +59,14 @@ const authenticateJWT = async (req, res, next) => {
             });
         } else {
             res.status(401).send({
-                status: 401,
+                code: 401,
                 message: "Masukkan token untuk mengakses"
             });
         }
     } catch(err) {
         console.log(err)
         res.status(422).send({
-            status: 422,
+            code: 422,
             message: err
         })
     }

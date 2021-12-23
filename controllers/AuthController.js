@@ -7,12 +7,12 @@ const register = async (req, res) => {
     try {
         const save = await models.User.create(req)
         res.status(200).send({
-            status: 200,
+            code: 200,
             message: "Berhasil melakukan register"
         })
     } catch(err) {
         res.status(422).send({
-            status: 422,
+            code: 422,
             message: err
         })
     }
@@ -39,20 +39,20 @@ const login = async (req, res) => {
             })
 
             res.status(200).send({
-                status: 200,
+                code: 200,
                 message: "Login berhasil",
                 token: token
             })
         } else {
             res.status(422).send({
-                status: 422,
+                code: 422,
                 message: "Password salah"
             })
         }
     } catch(err) {
         console.log(err)
         res.status(422).send({
-            status: 422,
+            code: 422,
             message: "Email atau password salah",
             error: err
         })
@@ -66,19 +66,19 @@ const logout = async (req, res) => {
             await models.Blacklist.create({ token: token })
 
             res.status(200).send({
-                status: 200,
+                code: 200,
                 message: "Logout berhasil"
             })
         } else {
             res.status(422).send({
-                status: 422,
+                code: 422,
                 message: "Masukkan token untuk logout"
             })
         }
     } catch(err) {
         console.log(err)
         res.status(422).send({
-            status: 422,
+            code: 422,
             message: err
         })
     }
