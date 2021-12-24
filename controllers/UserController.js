@@ -5,7 +5,7 @@ const getAllUser = async (req, res) => {
     const User = await models.User.findAll({});
     res.status(200).send({
         status: 200,
-        message: 'Berhasil get data user',
+        message: 'Berhasil GET data user',
         data: User
     });
 };
