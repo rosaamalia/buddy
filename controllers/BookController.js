@@ -59,7 +59,92 @@ const getByCategory = async (req, res) => {
     }
 }
 
+const addBook = async (req, res) => {
+    try {
+        const {kategori_id, judul, deskripsi , penulis , sampul, isi} = req.body
+        const addBooks = {
+            kategori_id : kategori_id,
+            judul : judul,
+            deskripsi : deskripsi,
+            penulis : penulis,
+            sampul : sampul,
+            isi : isi
+        }
+
+        const newbooks = await models.Book.create(addBooks)
+        res.status(200).send({
+            status: 200,
+            message : "success menambahkan data buku",
+            data : newbooks
+        })
+    } catch(error) {
+        res.status(500).send({
+            status: 500,
+            message : error.message
+        })
+    }
+}
+
+const updateBook = async (req, res) => {
+    try {
+        const booksId = req.params.id;
+
+        const {kategori_id, judul, deskripsi , penulis , sampul, isi} = req.body
+        const updateBooks = {
+            kategori_id : kategori_id,
+            judul : judul,
+            deskripsi : deskripsi,
+            penulis : penulis,
+            sampul : sampul,
+            isi : isi
+        }
+
+        const newupdatebooks = await models.Book.update(updateBooks, {
+            where: {
+                id : booksId
+            }
+        })
+        res.status(200).send({
+            status: 200,
+            message : `buku dengan id : ${booksId} berhasil di update`,
+            data : newupdatebooks
+        })        
+    } catch(error) {
+        res.status(500).send({
+            status: 500,
+            message : error.message
+        })
+    }
+}
+
+const deleteBook = async (req, res) => {
+    try {
+        const booksId = req.params.id;
+        const deletebooks = await models.Book.destroy({
+            where: {
+                id : booksId
+            }
+        })
+        res.status(200).send({
+            status: 200,
+            message : `buku dengan id : ${booksId} berhasil di hapus`,
+        })
+    } catch(error) {
+        res.status(500).send({
+            status: 500,
+            message : error.message
+        })
+    }
+}
 
 
-module.exports = {getAllBook, getByID, getByCategory}
+
+module.exports = {
+    getAllBook,
+    getByID,
+    getByCategory,
+    addBook,
+    updateBook,
+    deleteBook
+}
 
