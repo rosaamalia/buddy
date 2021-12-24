@@ -1,0 +1,49 @@
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "nama": "admin1",
+    "email": "admin1@mail.com",
+    "password": "",
+    "role": "admin"
+}
+
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin1@mail.com",
+    "password": ""
+}
+
+POST http://localhost:5000/favorites
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+{
+    "nama_favorite": "Favorite 2",
+    "sampul_favorite": "sampul2.jpg"
+}
+
+POST http://localhost:5000/favorites/3
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+{
+    "buku": [
+        {"id": 1},
+        {"id": 2}
+    ]
+}
+
+GET http://localhost:5000/favorites
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+DELETE http://localhost:5000/favorites/1
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+GET http://localhost:5000/favorites/all
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN

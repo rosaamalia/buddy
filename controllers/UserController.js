@@ -63,4 +63,9 @@ const deleteUser = async (req, res) => {
     }
 };
 
-module.exports = { getAllUser, createUser, updateUser, deleteUser };
+const getUserbyEmail = async (val) => await models.User.findOne({ where: {email: val} })
+
+const getRoleUser = async (id) => await models.User.findOne({ attributes: ['role'], where: {id: id} })
+
+
+module.exports = { getAllUser, createUser, updateUser, deleteUser, getUserbyEmail, getRoleUser };
