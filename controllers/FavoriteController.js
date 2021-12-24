@@ -95,12 +95,12 @@ const getUserFavorite = async (req, res) => {
             }]
         })
         
+        console.log(favorite)
         res.status(200).send({
             status: 200,
             message: "Data favorite user berhasil diambil",
             favorites: favorite
         })
-        // console.log(favorite)
     } catch(err) {
         console.log(err)
         res.status(422).send({
