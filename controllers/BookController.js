@@ -107,7 +107,7 @@ const updateBook = async (req, res) => {
         res.status(200).send({
             status: 200,
             message : `buku dengan id : ${booksId} berhasil di update`,
-            data : newupdatebooks
+            data : updateBooks
         })        
     } catch(error) {
         res.status(500).send({

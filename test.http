@@ -1,31 +1,129 @@
+## Register
 POST http://localhost:5000/auth/register
 Content-Type: application/json
 
 {
     "nama": "admin1",
     "email": "admin1@mail.com",
-    "password": "",
+    "password": "password",
     "role": "admin"
+}
+
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "nama": "user",
+    "email": "user@mail.com",
+    "password": "password",
+    "role": "user"
+}
+
+
+## Login untuk mendapatkan API_TOKEN
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin1@mail.com",
+    "password": "password"
 }
 
 POST http://localhost:5000/auth/login
 Content-Type: application/json
 
 {
-    "email": "admin1@mail.com",
-    "password": ""
+    "email": "user@mail.com",
+    "password": "password"
 }
 
+
+
+## Get all books
+GET http://localhost:5000/books
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## Get book by id
+GET http://localhost:5000/books/2
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## Get book by category
+GET http://localhost:5000/books/category/1
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## Admin: tambah buku
+POST http://localhost:5000/books
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+{
+    "kategori_id": 1,
+    "judul": "Puisi 1",
+    "deskripsi": "Deskripsi puisi 1 ....",
+    "penulis": "Rosa Amalia",
+    "sampul": "sampul-puisi-1.jpg",
+    "isi": "Isi puisi 1"
+}
+
+
+## Admin: update buku
+PUT http://localhost:5000/books/39
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+{
+    "kategori_id": 1,
+    "judul": "Puisi 1",
+    "deskripsi": "Deskripsi puisi 1 ....",
+    "penulis": "Rosa & Rosa & Rosa",
+    "sampul": "sampul-puisi-1.jpg",
+    "isi": "Isi puisi 1"
+}
+
+
+## Admin: delete buku
+DELETE http://localhost:5000/books/39
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## Admin: get all user data
+GET http://localhost:5000/user
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## Admin: delete user
+DELETE http://localhost:5000/user/2
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## User: menampilkan informasi profil
+GET http://localhost:5000/user/profile
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## User: membuat favorite
 POST http://localhost:5000/favorites
 Content-Type: application/json
 Authorization: Bearer YOUR_API_TOKEN
 
 {
-    "nama_favorite": "Favorite 2",
-    "sampul_favorite": "sampul2.jpg"
+    "nama_favorite": "Favorite 1",
+    "sampul_favorite": "sampul1.jpg"
 }
 
-POST http://localhost:5000/favorites/3
+
+## User: menambahkan buku ke favorite
+POST http://localhost:5000/favorites/2
 Content-Type: application/json
 Authorization: Bearer YOUR_API_TOKEN
 
@@ -36,14 +134,26 @@ Authorization: Bearer YOUR_API_TOKEN
     ]
 }
 
+
+## User: menampilkan seluruh favorite user yang sedang login
 GET http://localhost:5000/favorites
 Content-Type: application/json
 Authorization: Bearer YOUR_API_TOKEN
 
+
+## User: menghapus favorite
 DELETE http://localhost:5000/favorites/1
 Content-Type: application/json
 Authorization: Bearer YOUR_API_TOKEN
 
+
+## Admin: mendapatkan semua data favorite
 GET http://localhost:5000/favorites/all
+Content-Type: application/json
+Authorization: Bearer YOUR_API_TOKEN
+
+
+## Logout, API_TOKEN tidak bisa digunakan lagi
+POST http://localhost:5000/auth/logout
 Content-Type: application/json
 Authorization: Bearer YOUR_API_TOKEN

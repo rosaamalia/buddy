@@ -9,44 +9,6 @@ const getAllUser = async (req, res) => {
         data: User
     });
 };
-const createUser = async (req, res) => {
-    try {
-        const { nama, email, password } = req.body;
-        const User = await models.User.create({
-            nama,
-            email,
-            password
-        });
-
-        res.status(200).send({ status: 200, message: 'User Berhasil ditambahkan', data: User });
-    } catch (error) {
-        res.status(500).send({ status: 500, message:error.message });
-        
-    }
-}
-
-const updateUser = async (req, res) => {
-    try {
-        const id = req.params.id;
-        const { nama, email, password} = req.body;
-        const User = await models.User.update(
-            {
-                nama,
-                email,
-                password
-            },
-            {
-                where: {
-                    id: id
-                }
-            }
-        );
-
-        res.status(200).send({ status: 200, message: "User Berhasil di Update", data: User});
-    } catch (error) {
-        res.status(500).send({ status: 500, message:error.message });
-    }
-};
 
 const deleteUser = async (req, res) => {
     try {
@@ -67,5 +29,27 @@ const getUserbyEmail = async (val) => await models.User.findOne({ where: {email:
 
 const getRoleUser = async (id) => await models.User.findOne({ attributes: ['role'], where: {id: id} })
 
+const getProfileInformation = async (req, res) => {
+    try {
+        const userId = req.user_id
 
-module.exports = { getAllUser, createUser, updateUser, deleteUser, getUserbyEmail, getRoleUser };
+        const users = await models.User.findOne({
+            where: {
+                id : userId
+            }
+        }) 
+        res.status(200).send({
+                status : 200,
+                message : `success get profile user dengan id : ${userId}`,
+                data : users
+            })
+    } catch(error) {
+        res.status(500).send({
+            status : 500,
+            message : error.message
+        })
+    }
+}
+
+
+module.exports = { getAllUser, deleteUser, getUserbyEmail, getRoleUser, getProfileInformation };
