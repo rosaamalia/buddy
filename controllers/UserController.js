@@ -1,5 +1,5 @@
 const express = require('express')
-const models = require('../models')
+const models = require('../models/index')
 
 const getAllUser = async (req, res) => {
     const User = await models.User.findAll({});
@@ -9,7 +9,6 @@ const getAllUser = async (req, res) => {
         data: User
     });
 };
-
 const createUser = async (req, res) => {
     try {
         const { nama, email, password } = req.body;
