@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router();
 const user = require('./user');
 const auth = require('./auth');
+const favorite = require('./favorite');
 
 router.get("/", (req, res) => {
     res.send("Selamat datang di Buddy");
@@ -9,5 +10,6 @@ router.get("/", (req, res) => {
 
 router.use('/auth', auth);
 router.use('/user', user);
+router.use('/favorites', favorite);
 
 module.exports = router;

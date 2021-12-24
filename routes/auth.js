@@ -32,7 +32,7 @@ router.post('/register', registerValidation, (req, res) => {
 })
 
 // route login
-router.post('/login', [loginValidation], (req, res) => {
+router.post('/login', loginValidation, (req, res) => {
     // mengecek ke middleware, apakah validasi terpenuhi
     const error = validationResult(req);
 
