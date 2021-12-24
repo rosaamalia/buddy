@@ -9,6 +9,7 @@ const sequelize= require("sequelize");
 const Op = sequelize.Op;
 
 
+
 //inisiasi app
 const app = express()
 const port = process.env.PORT || 3000;
