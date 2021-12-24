@@ -1,22 +1,22 @@
 {
   "development": {
     "username": "root",
-    "password": "Tams4596",
-    "database": "buddy_development",
+    "password": "root",
+    "database": "database_development",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Tams4596",
-    "database": "buddy_test",
+    "password": "root",
+    "database": "database_development",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "Tams4596",
-    "database": "buddy_production",
+    "password": "root",
+    "database": "database_development",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
