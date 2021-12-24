@@ -24,9 +24,10 @@ const createFavorite = async (req, res) => {
         })
     } catch(err) {
         console.log(err)
-        res.status(422).send({
-            status: 422,
-            message: "Favorite gagal dibuat"
+        res.status(500).send({
+            status: 500,
+            message: "Favorite gagal dibuat",
+            error: err.message
         })
     }
 }
@@ -77,9 +78,10 @@ const addBooks = async (req, res) => {
 
     } catch(err) {
         console.log(err)
-        res.status(422).send({
-            status: 422,
-            message: "Buku gagal ditambahkan"
+        res.status(500).send({
+            status: 500,
+            message: "Buku gagal ditambahkan",
+            error: err.message
         })
     }
 }
@@ -103,9 +105,10 @@ const getUserFavorite = async (req, res) => {
         })
     } catch(err) {
         console.log(err)
-        res.status(422).send({
-            status: 422,
-            message: "Data favorite gagal diambil"
+        res.status(500).send({
+            status: 500,
+            message: "Data favorite gagal diambil",
+            error: err.message
         })
     }
 }
@@ -133,9 +136,10 @@ const deleteFavorite = async (req, res) => {
         }
     } catch(err) {
         console.log(err)
-        res.status(422).send({
-            status: 422,
-            message: "Favorite gagal dihapus"
+        res.status(500).send({
+            status: 500,
+            message: "Favorite gagal dihapus",
+            error: err.message
         })
     }
 }
@@ -155,9 +159,10 @@ const getAllFavorite = async (req, res) => {
         })
     } catch(err) {
         console.log(err)
-        res.status(422).send({
-            status: 422,
-            message: "Data gagal diambil"
+        res.status(500).send({
+            status: 500,
+            message: "Data gagal diambil",
+            error: err.message
         })
     }
 }
