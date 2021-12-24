@@ -18,7 +18,8 @@ router.post('/register', registerValidation, (req, res) => {
         data = {
             nama: req.body.nama,
             email: req.body.email,
-            password: password
+            password: password,
+            role: req.body.role
         };
 
         AuthController.register(data, res)

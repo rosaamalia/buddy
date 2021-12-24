@@ -10,11 +10,12 @@ const getAllUser = async (req, res, next) => {
     });
 };
 
-const getUserbyEmail = async (val) => await models.User.findOne({
-    where: {email: val}
-})
+const getUserbyEmail = async (val) => await models.User.findOne({ where: {email: val} })
+
+const getRoleUser = async (id) => await models.User.findOne({ attributes: ['role'], where: {id: id} })
 
 module.exports = {
     getAllUser,
-    getUserbyEmail
+    getUserbyEmail,
+    getRoleUser
 };

@@ -1,7 +1,21 @@
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "nama": "user1",
+    "email": "user1@mail.com",
+    "password": "password",
+    "role": "user"
+}
+
 POST http://localhost:5000/auth/login
 Content-Type: application/json
 
 {
-    "email": "nazhwa@mail.com",
+    "email": "admin1@mail.com",
     "password": "password"
 }
+
+GET http://localhost:5000/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVG9rZW4iOnsiaWQiOjMsImVtYWlsIjoiYWRtaW4xQG1haWwuY29tIn0sImlhdCI6MTY0MDMwODYyOCwiZXhwIjoxNjQwMzk1MDI4fQ.IigpwRZqpwrsHfZTjJLSMwJu-buG8E4A3xhWv2aLA8c

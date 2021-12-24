@@ -41,7 +41,8 @@ const login = async (req, res) => {
             res.status(200).send({
                 status: 200,
                 message: "Login berhasil",
-                token: token
+                token: token,
+                data: user
             })
         } else {
             res.status(422).send({

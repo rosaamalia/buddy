@@ -16,7 +16,8 @@ const registerValidation = [
             }
         })
     }),
-    check('password').not().isEmpty().withMessage('Password harus diisi').isAlphanumeric()
+    check('password').not().isEmpty().withMessage('Password harus diisi').isAlphanumeric(),
+    check('role').not().isEmpty().withMessage('Role harus diisi').isIn(['admin', 'user'])
 ];
 
 // validasi input saat login
@@ -54,7 +55,11 @@ const authenticateJWT = async (req, res, next) => {
                         message: "Token tidak valid"
                     })
                 }
-    
+                
+                // decode payload untuk mengambil user id
+                const payload = jwt.decode(token, { complete: true })
+                req.user_id = payload.payload.userToken.id
+                
                 next();
             });
         } else {
@@ -72,8 +77,35 @@ const authenticateJWT = async (req, res, next) => {
     }
 };
 
+// validasi role akun
+const roleValidation = function(role) {
+    return async (req, res, next) => {
+        try {
+            const data = await User.getRoleUser(req.user_id)
+            const roleUser = data.dataValues.role
+    
+            if(roleUser != role)
+            {
+                res.status(401).send({
+                    code: 401,
+                    message: "Kamu tidak memiliki hak akses"
+                })
+            }
+    
+            next()
+        } catch(err) {
+            console.log(err)
+            res.status(402).send({
+                code: 402,
+                message: err
+            })
+        }
+    }
+}
+
 module.exports = {
     registerValidation,
     loginValidation,
-    authenticateJWT
+    authenticateJWT,
+    roleValidation
 };
