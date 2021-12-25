@@ -14,14 +14,11 @@ Buddy adalah sebuah platform website edukasi yang ditujukan untuk anak-anak yang
 
 Platfrom ini juga tersedia berbagai fitur menarik yang yang dapat membantu user untuk menemukan buku yang mereka inginkan seperti fitur kategori, favorit dan lain-lain.
 
-## Problem Statement
-- Menyediakan cerita pendek untuk anak-anak
-- Menyediakan pantun berbagai jenis untuk anak-anak
-- Menyediakan puisi untuk anak-anak
-- Menyediakan dongeng singkat untung anak-anak
-
-## Desain Database
-![pdm](https://user-images.githubusercontent.com/68428942/147366303-83100846-5702-4f33-a04d-c9ffbdaefd95.jpg)
+## Instalasi
+```
+npm install
+npm start
+```
 
 ## Dokumentasi Project
 - Link Wireframe UI/UX: https://whimsical.com/wireframe-KXMcsM85W31R7ZkoGgWAnd
