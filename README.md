@@ -25,7 +25,7 @@ Platfrom ini juga tersedia berbagai fitur menarik yang yang dapat membantu user 
 
 ## Dokumentasi Project
 - Link Wireframe UI/UX: https://whimsical.com/wireframe-KXMcsM85W31R7ZkoGgWAnd
-- Link API Specification: https://whimsical.com/api-specification-9WTg7VMXw3BfbNSD85pu5f
+- Link API Documentation: https://documenter.getpostman.com/view/13459345/UVREijCN
 - Link Business Requirement Document: https://whimsical.com/business-requirement-document-buddy-project-3-5G9GX1dFi2gv74APxg7AGs
 - Link PPT Presentasi: https://docs.google.com/presentation/d/1uI5U9GdMyrDfXFd_uCTS78E302n-tynZauqsJxgVYeo/edit
 - Link Demo Youtube: https://youtu.be/y3Et2DeOp3g
