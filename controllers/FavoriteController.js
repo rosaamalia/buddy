@@ -93,7 +93,7 @@ const getUserFavorite = async (req, res) => {
         const favorite = await models.Favorite.findAll({
             where: {user_id: user_id},
             include: [{
-                model: models.Book, as: "buku", required: true
+                model: models.Book, as: "buku"
             }]
         })
         
@@ -148,7 +148,7 @@ const getAllFavorite = async (req, res) => {
     try {
         const data = await models.Favorite.findAll({
             include: [{
-                model: models.Book, as: "buku", required: true
+                model: models.Book, as: "buku"
             }]
         })
 
