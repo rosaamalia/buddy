@@ -13,7 +13,7 @@ const getAllUser = async (req, res) => {
 const deleteUser = async (req, res) => {
     try {
         const id = req.params.id;
-
+        
         await models.User.destroy({
             where: {
                 id: id
