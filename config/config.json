@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "sql6461086",
-    "password": "cMIs9lSwEt",
-    "database": "sql6461086",
-    "host": "sql6.freemysqlhosting.net",
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
